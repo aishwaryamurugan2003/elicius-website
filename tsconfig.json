@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "compilerOptions": {
     "target": "ES2022",
     "experimentalDecorators": true,
@@ -21,5 +22,20 @@
     /* 🔥 REQUIRED FOR ANT DESIGN ICONS */
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true
+=======
+  "files": [],
+  "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "noImplicitAny": false,
+    "noUnusedParameters": false,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "noUnusedLocals": false,
+    "strictNullChecks": false
+>>>>>>> bd798c9ab97e9b18bf2f48a4892322b661f9ecbf
   }
 }
